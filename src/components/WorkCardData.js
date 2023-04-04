@@ -11,7 +11,7 @@ const ProjectCardData = [
     },
     {
         imgsrc: pro2,
-        title: 'Postmane clone using React and Material UI',
+        title: 'Postman using React and Material UI',
         text: ' Postman clone is created with the help of React and Material UI. It contains GET and POST method. The three fields Params, Body and Header is included in this project.',   
           view: 'https://github.com/Akatzz12/postman-clone'
       },

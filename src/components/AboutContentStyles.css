@@ -7,6 +7,14 @@
     flex-wrap: wrap;
     height: 100%;
 }
+.pro-btns {
+    display: flex;
+    padding: 1rem 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
 
 .about .left{
     text-align: center;
