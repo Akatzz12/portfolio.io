@@ -1,6 +1,7 @@
 import pro1 from '../assets/project1.png'
 import pro2 from '../assets/project2.png'
 import pro3 from '../assets/project3.png'
+import pro4 from '../assets/project4.png'
 
 const ProjectCardData = [
     {
@@ -17,9 +18,15 @@ const ProjectCardData = [
       },
       {
         imgsrc: pro3,
-        title: 'Airlines Booking System using MERN Stack',
-        text: ' A online airlines ticket booking system which is developed with the help of MERN stack. It provides the service of customer support, ticket buying, flight details, etc.  ',
-        view: 'url.com'
+        title: 'SSk Civil Works and Services',
+        text: ' This is the responsive webiste of civil service company named "SSk Civil Works and Services" created with the React. ',
+        view: 'https://sskcivilworksandservices.netlify.app/'
+      },
+      {
+        imgsrc: pro4,
+        title: 'Notepad app using JAVA',
+        text: ' This is the note pad app created with the help of Java Swing and AWT ',
+        view: 'https://github.com/Akatzz12/Notepad-app'
       }
 ]
 
