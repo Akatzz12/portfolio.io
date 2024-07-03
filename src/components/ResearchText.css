@@ -1,0 +1,86 @@
+/* ResearchText.css */
+
+.work-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    color: white; /* Set all text color to white */
+}
+
+.project-heading {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Publications Section */
+.publications-list {
+    width: 100%; /* Ensures the list takes the full width of the container */
+    max-width: 800px; /* Optional: Restricts the max width of the list */
+    padding: 0;
+    margin: 0;
+}
+
+.publication-item {
+    margin-bottom: 15px;
+    text-align: left; /* Align text to the left */
+    padding-left: 20px; /* Additional padding to push text more to the left */
+}
+
+.publication-title {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.publication-details {
+    margin-top: 5px;
+    font-size: 0.9em;
+}
+
+.publication-link {
+    display: block;
+    margin-top: 5px; /* Adds a little space above the link */
+    color: rgb(56, 209, 171); /* Ensures link text is also white */
+    text-decoration: none;
+    padding-left: 20px; /* Matches the left padding for consistency */
+}
+
+.publication-link:hover {
+    text-decoration: underline;
+}
+
+/* Research Work Section */
+.research-work-list {
+    width: 100%; /* Ensures the list takes the full width of the container */
+    max-width: 800px; /* Optional: Restricts the max width of the list */
+    padding: 0;
+    margin: 20px 0; /* Added margin for separation between sections */
+}
+
+.research-work-item {
+    margin-bottom: 15px;
+    text-align: left; /* Align text to the left */
+    padding-left: 20px; /* Additional padding to push text more to the left */
+}
+
+.research-work-title {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.research-work-date {
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.research-work-details {
+    font-size: 0.9em;
+    margin-top: 5px;
+    padding-left: 20px; /* Matches the left padding for consistency */
+}
+
+.research-work-details li {
+    margin-bottom: 5px; /* Adds spacing between bullet points */
+}

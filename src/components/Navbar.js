@@ -25,7 +25,7 @@ const Navbar = () => {
     <div className = {color ? 'header header-bg':
     'header'}>
         <Link to ={ "/"}> 
-        <h1>Portfolio</h1>
+        <h1>Kapil</h1>
         </Link>
         <ul className={click ? "nav-menu active" : 
         "nav-menu"}>
@@ -33,11 +33,15 @@ const Navbar = () => {
               <Link to="/">Home</Link> 
             </li>
             <li>
-              <Link to="/project">Project</Link> 
-            </li>
-            <li>
               <Link to="/about">About</Link> 
             </li>
+            <li>
+              <Link to="/research">Publications and Research</Link> 
+            </li>
+            <li>
+              <Link to="/project">Projects</Link> 
+            </li>
+          
             <li>
               <Link to="/contact">Contact</Link> 
             </li>

@@ -2,8 +2,15 @@ import pro1 from '../assets/project1.png'
 import pro2 from '../assets/project2.png'
 import pro3 from '../assets/project3.png'
 import pro4 from '../assets/project4.png'
+import pro5 from '../assets/project5.png'
 
 const ProjectCardData = [
+  {
+    imgsrc: pro5,
+    title: 'News and Research Tool Using Langchain',
+    text: ' A news research application utilizing LangChain for natural language processing and integrating OpenAI API for generating summaries and analyzing news articles.',
+      view: 'https://github.com/Akatzz12/News-Research-using-Langchain'
+  },
     {
       imgsrc: pro1,
       title: 'Hotel Management System Using JAVA',

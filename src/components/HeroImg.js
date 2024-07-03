@@ -12,16 +12,17 @@ const HeroImg = () => {
     </div>
     <div className='content'>
         <p>HELLO, THIS IS KAPILESHWOR RAY AMAT</p>
-        <h1>SOFTWARE DEVELOPER AND SOFTWARE TESTER.</h1>
+        <h1>SOFTWARE ENGINEER </h1>
+        <h2> I am currently involved in Machine Learning and Artificial Intelligence Research  </h2>
     <div>
         <Link to='/project'
         className='btn'>
             Projects
             </ Link>
 
-        <Link to='/contact'
+        <Link to='/research'
         className='btn btn-light'>
-            Contact
+            Research
             </ Link>
     </div>
     </div>

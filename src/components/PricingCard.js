@@ -25,7 +25,7 @@ const PricingCard = () => {
                 <p>Atlessian Tools</p>
                 <p> Selenium </p>
                 <p> Appium </p>
-                <p> Cucumber  </p>
+                <p> Webdriver IO  </p>
                 <p> Browserstack </p>
                 <p> Robot Framework </p>
                

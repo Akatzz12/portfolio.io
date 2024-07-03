@@ -1,24 +1,33 @@
-import './FormStyles.css'
+import React from 'react';
+import './FormStyles.css';
+import profilePhoto from '../assets/mine.jpeg'
 
-import React from 'react'
-
-const Form = () => {
+const ContactInfo = () => {
   return (
-    <div className='form'>
-        <form>
-            <label>Your Name</label>
-            <input type='text'></input>
-            <label>Email </label>
-            <input type='text'></input>
-            <label>Subject</label>
-            <input type='text'></input>
-            <label>Message</label>
-            <input type='text'></input>
-            <textarea rows='6' placeholder='Type your message'/>
-            <button className='btn'>Submit</button>
-        </form>
-    </div>
-  )
-}
+      <div className='contact-info'>
+          <h2>Kapileshwor Ray Amat</h2>
+          <img src={profilePhoto} alt='Profile' className='profile-photo' />
+          <div className='info-item'>
+              <p><strong>Phone:</strong> +91-7296081178 / +977-9860371932</p>
+          </div>
+          <div className='info-item'>
+              <p><strong>Email:</strong> kapileshworray@gmail.com</p>
+          </div>
+          <div className='info-item'>
+              <p>
+                  <strong>LinkedIn:</strong>&nbsp;
+                  <a href='http://www.linkedin.com/in/kapilray' target='_blank' rel='noopener noreferrer'>LinkedIn Profile</a>
+              </p>
+          </div>
+          <div className='info-item'>
+              <p>
+                  <strong>GitHub:</strong>&nbsp;
+                  <a href='https://github.com/Akatzz12' target='_blank' rel='noopener noreferrer'>GitHub Profile</a>
+              </p>
+          </div>
+      </div>
+  );
+};
 
-export default Form
+
+export default ContactInfo;
